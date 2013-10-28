@@ -1,0 +1,1236 @@
+# Logfile created on 2013-10-22 12:53:38 -0500 by logger.rb/36483
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : Starting the New Relic agent in "development" environment.
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : Reading configuration from config/newrelic.yml
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : New Relic Agent Developer Mode enabled.
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : Enabling the Request Sampler.
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : Enabling the Request Sampler.
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : Environment: development
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : No known dispatcher detected.
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : Application: My Application
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] WARN : Agent configured not to send data in this environment.
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : Installing ActiveRecord instrumentation
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : Installing middleware-based Excon instrumentation
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : Installing Net instrumentation
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : Installing deferred Rack instrumentation
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : Installing Rails 3 Controller instrumentation
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : Installing Rails3 Error instrumentation
+[10/22/13 12:53:38 -0500 Sams-MacBook-Pro.local (3225)] INFO : Finished instrumentation
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Starting the New Relic agent in "development" environment.
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Reading configuration from config/newrelic.yml
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : New Relic Agent Developer Mode enabled.
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Enabling the Request Sampler.
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Enabling the Request Sampler.
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Environment: development
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Dispatcher: webrick
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Application: My Application
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] WARN : Agent configured not to send data in this environment.
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Installing ActiveRecord instrumentation
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Installing middleware-based Excon instrumentation
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Installing Net instrumentation
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Installing deferred Rack instrumentation
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Installing Rails 3 Controller instrumentation
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Installing Rails3 Error instrumentation
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Finished instrumentation
+[10/22/13 12:57:29 -0500 Sams-MacBook-Pro.local (3318)] INFO : Doing deferred dependency-detection before Rack startup
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : Starting the New Relic agent in "development" environment.
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : Reading configuration from config/newrelic.yml
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : New Relic Agent Developer Mode enabled.
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : Enabling the Request Sampler.
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : Enabling the Request Sampler.
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : Environment: development
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : Dispatcher: webrick
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : Application: My Application
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] WARN : Agent configured not to send data in this environment.
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : Installing middleware-based Excon instrumentation
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : Installing deferred Rack instrumentation
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : Installing ActiveRecord instrumentation
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : Installing Net instrumentation
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : Installing Rails3 Error instrumentation
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : Installing Rails 3 Controller instrumentation
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/22/13 18:52:12 +0000 rails-dev-box (10233)] INFO : Finished instrumentation
+[10/22/13 18:52:13 +0000 rails-dev-box (10233)] INFO : Doing deferred dependency-detection before Rack startup
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : Starting the New Relic agent in "development" environment.
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : Reading configuration from config/newrelic.yml
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : New Relic Agent Developer Mode enabled.
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : Enabling the Request Sampler.
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : Enabling the Request Sampler.
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : Environment: development
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : Dispatcher: webrick
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : Application: My Application
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] WARN : Agent configured not to send data in this environment.
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : Installing middleware-based Excon instrumentation
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : Installing deferred Rack instrumentation
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : Installing ActiveRecord instrumentation
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : Installing Net instrumentation
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : Installing Rails3 Error instrumentation
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : Installing Rails 3 Controller instrumentation
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/22/13 19:06:09 +0000 rails-dev-box (10313)] INFO : Finished instrumentation
+[10/22/13 19:06:10 +0000 rails-dev-box (10313)] INFO : Doing deferred dependency-detection before Rack startup
+[10/22/13 19:12:01 +0000 rails-dev-box (10313)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/22/13 19:12:01 +0000 rails-dev-box (10313)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/1/avtar.png
+[10/22/13 19:15:27 +0000 rails-dev-box (10313)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/22/13 19:15:27 +0000 rails-dev-box (10313)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/1/avtar.png
+[10/22/13 19:16:14 +0000 rails-dev-box (10313)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/22/13 19:16:14 +0000 rails-dev-box (10313)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/1/avtar.png
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : Starting the New Relic agent in "development" environment.
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : Reading configuration from config/newrelic.yml
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : New Relic Agent Developer Mode enabled.
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : Enabling the Request Sampler.
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : Enabling the Request Sampler.
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : Environment: development
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : Dispatcher: webrick
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : Application: My Application
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] WARN : Agent configured not to send data in this environment.
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : Installing middleware-based Excon instrumentation
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : Installing deferred Rack instrumentation
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : Installing ActiveRecord instrumentation
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : Installing Net instrumentation
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : Installing Rails3 Error instrumentation
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : Installing Rails 3 Controller instrumentation
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/22/13 19:27:37 +0000 rails-dev-box (10459)] INFO : Finished instrumentation
+[10/22/13 19:27:38 +0000 rails-dev-box (10459)] INFO : Doing deferred dependency-detection before Rack startup
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : Starting the New Relic agent in "development" environment.
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : Reading configuration from config/newrelic.yml
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : New Relic Agent Developer Mode enabled.
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : Enabling the Request Sampler.
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : Enabling the Request Sampler.
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : Environment: development
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : Dispatcher: webrick
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : Application: My Application
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] WARN : Agent configured not to send data in this environment.
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : Installing middleware-based Excon instrumentation
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : Installing deferred Rack instrumentation
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : Installing ActiveRecord instrumentation
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : Installing Net instrumentation
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : Installing Rails3 Error instrumentation
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : Installing Rails 3 Controller instrumentation
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/22/13 19:31:08 +0000 rails-dev-box (10482)] INFO : Finished instrumentation
+[10/22/13 19:31:09 +0000 rails-dev-box (10482)] INFO : Doing deferred dependency-detection before Rack startup
+[10/22/13 19:35:35 +0000 rails-dev-box (10482)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/22/13 19:35:35 +0000 rails-dev-box (10482)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/1/avtar.png
+[10/22/13 19:41:56 +0000 rails-dev-box (10534)] INFO : Starting the New Relic agent in "development" environment.
+[10/22/13 19:41:56 +0000 rails-dev-box (10534)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/22/13 19:41:56 +0000 rails-dev-box (10534)] INFO : Reading configuration from config/newrelic.yml
+[10/22/13 19:41:56 +0000 rails-dev-box (10534)] INFO : New Relic Agent Developer Mode enabled.
+[10/22/13 19:41:56 +0000 rails-dev-box (10534)] INFO : Enabling the Request Sampler.
+[10/22/13 19:41:56 +0000 rails-dev-box (10534)] INFO : Enabling the Request Sampler.
+[10/22/13 19:41:56 +0000 rails-dev-box (10534)] INFO : Environment: development
+[10/22/13 19:41:56 +0000 rails-dev-box (10534)] INFO : Dispatcher: webrick
+[10/22/13 19:41:56 +0000 rails-dev-box (10534)] INFO : Application: My Application
+[10/22/13 19:41:56 +0000 rails-dev-box (10534)] WARN : Agent configured not to send data in this environment.
+[10/22/13 19:41:57 +0000 rails-dev-box (10534)] INFO : Installing middleware-based Excon instrumentation
+[10/22/13 19:41:57 +0000 rails-dev-box (10534)] INFO : Installing deferred Rack instrumentation
+[10/22/13 19:41:57 +0000 rails-dev-box (10534)] INFO : Installing ActiveRecord instrumentation
+[10/22/13 19:41:57 +0000 rails-dev-box (10534)] INFO : Installing Net instrumentation
+[10/22/13 19:41:57 +0000 rails-dev-box (10534)] INFO : Installing Rails3 Error instrumentation
+[10/22/13 19:41:57 +0000 rails-dev-box (10534)] INFO : Installing Rails 3 Controller instrumentation
+[10/22/13 19:41:57 +0000 rails-dev-box (10534)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/22/13 19:41:57 +0000 rails-dev-box (10534)] INFO : Finished instrumentation
+[10/22/13 19:41:58 +0000 rails-dev-box (10534)] INFO : Doing deferred dependency-detection before Rack startup
+[10/22/13 19:45:25 +0000 rails-dev-box (10534)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/22/13 19:45:25 +0000 rails-dev-box (10534)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/1/Horse.jpg
+[10/22/13 19:45:28 +0000 rails-dev-box (10534)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/22/13 19:45:28 +0000 rails-dev-box (10534)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/1/tiny_Horse.jpg
+[10/22/13 19:45:31 +0000 rails-dev-box (10534)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/22/13 19:45:31 +0000 rails-dev-box (10534)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/1/small_Horse.jpg
+[10/22/13 19:46:23 +0000 rails-dev-box (10534)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/22/13 19:46:23 +0000 rails-dev-box (10534)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/1/avtar.png
+[10/22/13 19:46:25 +0000 rails-dev-box (10534)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/22/13 19:46:25 +0000 rails-dev-box (10534)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/1/tiny_avtar.png
+[10/22/13 19:46:27 +0000 rails-dev-box (10534)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/22/13 19:46:27 +0000 rails-dev-box (10534)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/1/small_avtar.png
+[10/22/13 19:46:28 +0000 rails-dev-box (10534)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/22/13 19:46:28 +0000 rails-dev-box (10534)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads%2Fuser%2Favatar%2F1%2FHorse.jpg
+[10/22/13 19:46:30 +0000 rails-dev-box (10534)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/22/13 19:46:30 +0000 rails-dev-box (10534)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads%2Fuser%2Favatar%2F1%2Ftiny_Horse.jpg
+[10/22/13 19:46:31 +0000 rails-dev-box (10534)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/22/13 19:46:31 +0000 rails-dev-box (10534)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads%2Fuser%2Favatar%2F1%2Fsmall_Horse.jpg
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : Starting the New Relic agent in "development" environment.
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : Reading configuration from config/newrelic.yml
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : New Relic Agent Developer Mode enabled.
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : Enabling the Request Sampler.
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : Enabling the Request Sampler.
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : Environment: development
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : No known dispatcher detected.
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : Application: My Application
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] WARN : Agent configured not to send data in this environment.
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : Installing middleware-based Excon instrumentation
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : Installing deferred Rack instrumentation
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : Installing ActiveRecord instrumentation
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : Installing Net instrumentation
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : Installing Rails3 Error instrumentation
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : Installing Rails 3 Controller instrumentation
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/22/13 20:02:17 +0000 rails-dev-box (10706)] INFO : Finished instrumentation
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : Starting the New Relic agent in "development" environment.
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : Reading configuration from config/newrelic.yml
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : New Relic Agent Developer Mode enabled.
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : Enabling the Request Sampler.
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : Enabling the Request Sampler.
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : Environment: development
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : No known dispatcher detected.
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : Application: My Application
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] WARN : Agent configured not to send data in this environment.
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : Installing middleware-based Excon instrumentation
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : Installing deferred Rack instrumentation
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : Installing ActiveRecord instrumentation
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : Installing Net instrumentation
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : Installing Rails3 Error instrumentation
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : Installing Rails 3 Controller instrumentation
+[10/22/13 20:03:20 +0000 rails-dev-box (10710)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/22/13 20:03:21 +0000 rails-dev-box (10710)] INFO : Finished instrumentation
+[10/22/13 20:09:20 +0000 rails-dev-box (10720)] INFO : Starting the New Relic agent in "development" environment.
+[10/22/13 20:09:20 +0000 rails-dev-box (10720)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/22/13 20:09:20 +0000 rails-dev-box (10720)] INFO : Reading configuration from config/newrelic.yml
+[10/22/13 20:09:20 +0000 rails-dev-box (10720)] INFO : New Relic Agent Developer Mode enabled.
+[10/22/13 20:09:20 +0000 rails-dev-box (10720)] INFO : Enabling the Request Sampler.
+[10/22/13 20:09:20 +0000 rails-dev-box (10720)] INFO : Enabling the Request Sampler.
+[10/22/13 20:09:20 +0000 rails-dev-box (10720)] INFO : Environment: development
+[10/22/13 20:09:20 +0000 rails-dev-box (10720)] INFO : Dispatcher: webrick
+[10/22/13 20:09:20 +0000 rails-dev-box (10720)] INFO : Application: My Application
+[10/22/13 20:09:20 +0000 rails-dev-box (10720)] WARN : Agent configured not to send data in this environment.
+[10/22/13 20:09:21 +0000 rails-dev-box (10720)] INFO : Installing middleware-based Excon instrumentation
+[10/22/13 20:09:21 +0000 rails-dev-box (10720)] INFO : Installing deferred Rack instrumentation
+[10/22/13 20:09:21 +0000 rails-dev-box (10720)] INFO : Installing ActiveRecord instrumentation
+[10/22/13 20:09:21 +0000 rails-dev-box (10720)] INFO : Installing Net instrumentation
+[10/22/13 20:09:21 +0000 rails-dev-box (10720)] INFO : Installing Rails3 Error instrumentation
+[10/22/13 20:09:21 +0000 rails-dev-box (10720)] INFO : Installing Rails 3 Controller instrumentation
+[10/22/13 20:09:21 +0000 rails-dev-box (10720)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/22/13 20:09:21 +0000 rails-dev-box (10720)] INFO : Finished instrumentation
+[10/22/13 20:09:22 +0000 rails-dev-box (10720)] INFO : Doing deferred dependency-detection before Rack startup
+[10/22/13 20:10:40 +0000 rails-dev-box (10720)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/22/13 20:10:40 +0000 rails-dev-box (10720)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/post/image/169/avtar.png
+[10/22/13 20:10:42 +0000 rails-dev-box (10720)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/22/13 20:10:42 +0000 rails-dev-box (10720)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/post/image/169/thumb_avtar.png
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : Starting the New Relic agent in "development" environment.
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : Reading configuration from config/newrelic.yml
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : New Relic Agent Developer Mode enabled.
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : Enabling the Request Sampler.
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : Enabling the Request Sampler.
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : Environment: development
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : No known dispatcher detected.
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : Application: My Application
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] WARN : Agent configured not to send data in this environment.
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : Installing middleware-based Excon instrumentation
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : Installing deferred Rack instrumentation
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : Installing ActiveRecord instrumentation
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : Installing Net instrumentation
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : Installing Rails3 Error instrumentation
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : Installing Rails 3 Controller instrumentation
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/22/13 20:49:45 +0000 rails-dev-box (10868)] INFO : Finished instrumentation
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : Starting the New Relic agent in "development" environment.
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : Reading configuration from config/newrelic.yml
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : New Relic Agent Developer Mode enabled.
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : Enabling the Request Sampler.
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : Enabling the Request Sampler.
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : Environment: development
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : Dispatcher: webrick
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : Application: My Application
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] WARN : Agent configured not to send data in this environment.
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : Installing middleware-based Excon instrumentation
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : Installing deferred Rack instrumentation
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : Installing ActiveRecord instrumentation
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : Installing Net instrumentation
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : Installing Rails3 Error instrumentation
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : Installing Rails 3 Controller instrumentation
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/22/13 20:50:22 +0000 rails-dev-box (10870)] INFO : Finished instrumentation
+[10/22/13 20:50:23 +0000 rails-dev-box (10870)] INFO : Doing deferred dependency-detection before Rack startup
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : Starting the New Relic agent in "development" environment.
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : Reading configuration from config/newrelic.yml
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : New Relic Agent Developer Mode enabled.
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : Enabling the Request Sampler.
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : Enabling the Request Sampler.
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : Environment: development
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : No known dispatcher detected.
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : Application: My Application
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] WARN : Agent configured not to send data in this environment.
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : Installing middleware-based Excon instrumentation
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : Installing deferred Rack instrumentation
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : Installing ActiveRecord instrumentation
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : Installing Net instrumentation
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : Installing Rails3 Error instrumentation
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : Installing Rails 3 Controller instrumentation
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/22/13 21:39:38 +0000 rails-dev-box (11105)] INFO : Finished instrumentation
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : Enabling the Request Sampler.
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : Enabling the Request Sampler.
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : Environment: development
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : No known dispatcher detected.
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : Application: My Application
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] WARN : Agent configured not to send data in this environment.
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : Installing Net instrumentation
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : Installing deferred Rack instrumentation
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 10:01:36 -0500 Sams-MacBook-Pro.local (811)] INFO : Finished instrumentation
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : Enabling the Request Sampler.
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : Enabling the Request Sampler.
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : Environment: development
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : Dispatcher: webrick
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : Application: My Application
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] WARN : Agent configured not to send data in this environment.
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : Installing Net instrumentation
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : Installing deferred Rack instrumentation
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 10:16:45 -0500 Sams-MacBook-Pro.local (1077)] INFO : Finished instrumentation
+[10/24/13 10:16:46 -0500 Sams-MacBook-Pro.local (1077)] INFO : Doing deferred dependency-detection before Rack startup
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : Enabling the Request Sampler.
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : Enabling the Request Sampler.
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : Environment: development
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : No known dispatcher detected.
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : Application: My Application
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] WARN : Agent configured not to send data in this environment.
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : Installing deferred Rack instrumentation
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : Installing Net instrumentation
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 15:20:51 +0000 rails-dev-box (2296)] INFO : Finished instrumentation
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : Enabling the Request Sampler.
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : Enabling the Request Sampler.
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : Environment: development
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : Dispatcher: webrick
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : Application: My Application
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] WARN : Agent configured not to send data in this environment.
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : Installing deferred Rack instrumentation
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : Installing Net instrumentation
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 15:25:09 +0000 rails-dev-box (2312)] INFO : Finished instrumentation
+[10/24/13 15:25:11 +0000 rails-dev-box (2312)] INFO : Doing deferred dependency-detection before Rack startup
+[10/24/13 15:37:12 +0000 rails-dev-box (2312)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/24/13 15:37:12 +0000 rails-dev-box (2312)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/6/avtar.png
+[10/24/13 15:37:14 +0000 rails-dev-box (2312)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/24/13 15:37:14 +0000 rails-dev-box (2312)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/6/tiny_avtar.png
+[10/24/13 15:37:16 +0000 rails-dev-box (2312)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/24/13 15:37:16 +0000 rails-dev-box (2312)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/6/small_avtar.png
+[10/24/13 15:40:09 +0000 rails-dev-box (2312)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/24/13 15:40:09 +0000 rails-dev-box (2312)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/post/image/26/avtar.png
+[10/24/13 15:40:12 +0000 rails-dev-box (2312)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/24/13 15:40:12 +0000 rails-dev-box (2312)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/post/image/26/thumb_avtar.png
+[10/24/13 17:02:10 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `model_name' for NilClass:Class
+[10/24/13 17:02:13 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `model_name' for NilClass:Class
+[10/24/13 17:02:13 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `model_name' for NilClass:Class
+[10/24/13 17:03:10 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `topic_post_comments_path' for #<#<Class:0xb3eec2e0>:0xb3cabad0>
+[10/24/13 17:03:10 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `topic_post_comments_path' for #<#<Class:0xb3eec2e0>:0xb3cabad0>
+[10/24/13 17:03:12 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `topic_post_comments_path' for #<#<Class:0xb3eec2e0>:0xb4353770>
+[10/24/13 17:03:12 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `topic_post_comments_path' for #<#<Class:0xb3eec2e0>:0xb4353770>
+[10/24/13 17:03:14 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `topic_post_comments_path' for #<#<Class:0xb3eec2e0>:0xb45147bc>
+[10/24/13 17:03:14 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `topic_post_comments_path' for #<#<Class:0xb3eec2e0>:0xb45147bc>
+[10/24/13 17:04:49 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `topic_post_comments_path' for #<#<Class:0xb3ba9948>:0xb3ba913c>
+[10/24/13 17:04:49 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `topic_post_comments_path' for #<#<Class:0xb3ba9948>:0xb3ba913c>
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : Enabling the Request Sampler.
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : Enabling the Request Sampler.
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : Environment: development
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : No known dispatcher detected.
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : Application: My Application
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] WARN : Agent configured not to send data in this environment.
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : Installing deferred Rack instrumentation
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : Installing Net instrumentation
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 17:05:01 +0000 rails-dev-box (2773)] INFO : Finished instrumentation
+[10/24/13 17:06:10 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: SQLite3::CorruptException: database disk image is malformed: SELECT  "topics".* FROM "topics"  WHERE "topics"."id" = ? LIMIT 1
+[10/24/13 17:06:10 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: SQLite3::CorruptException: database disk image is malformed: SELECT  "topics".* FROM "topics"  WHERE "topics"."id" = ? LIMIT 1
+[10/24/13 17:06:19 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: SQLite3::CorruptException: database disk image is malformed: SELECT  "topics".* FROM "topics"  LIMIT 10 OFFSET 0
+[10/24/13 17:06:19 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: SQLite3::CorruptException: database disk image is malformed: SELECT  "topics".* FROM "topics"  LIMIT 10 OFFSET 0
+[10/24/13 17:06:35 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: SQLite3::CorruptException: database disk image is malformed: SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+[10/24/13 17:06:35 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: SQLite3::CorruptException: database disk image is malformed: SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : Enabling the Request Sampler.
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : Enabling the Request Sampler.
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : Environment: development
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : No known dispatcher detected.
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : Application: My Application
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] WARN : Agent configured not to send data in this environment.
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : Installing deferred Rack instrumentation
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : Installing Net instrumentation
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 17:07:36 +0000 rails-dev-box (2779)] INFO : Finished instrumentation
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : Enabling the Request Sampler.
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : Enabling the Request Sampler.
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : Environment: development
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : No known dispatcher detected.
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : Application: My Application
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] WARN : Agent configured not to send data in this environment.
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : Installing deferred Rack instrumentation
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : Installing Net instrumentation
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 17:08:43 +0000 rails-dev-box (2784)] INFO : Finished instrumentation
+[10/24/13 17:08:53 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: SQLite3::CorruptException: database disk image is malformed: SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+[10/24/13 17:08:53 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: SQLite3::CorruptException: database disk image is malformed: SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+[10/24/13 17:08:55 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: SQLite3::CorruptException: database disk image is malformed: SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+[10/24/13 17:08:55 +0000 rails-dev-box (2312)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: SQLite3::CorruptException: database disk image is malformed: SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : Enabling the Request Sampler.
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : Enabling the Request Sampler.
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : Environment: development
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : Dispatcher: webrick
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : Application: My Application
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] WARN : Agent configured not to send data in this environment.
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : Installing deferred Rack instrumentation
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : Installing Net instrumentation
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 17:11:35 +0000 rails-dev-box (2952)] INFO : Finished instrumentation
+[10/24/13 17:11:36 +0000 rails-dev-box (2952)] INFO : Doing deferred dependency-detection before Rack startup
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : Enabling the Request Sampler.
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : Enabling the Request Sampler.
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : Environment: development
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : No known dispatcher detected.
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : Application: My Application
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] WARN : Agent configured not to send data in this environment.
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : Installing Net instrumentation
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : Installing deferred Rack instrumentation
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 12:23:06 -0500 Sams-MacBook-Pro.local (2375)] INFO : Finished instrumentation
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : Enabling the Request Sampler.
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : Enabling the Request Sampler.
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : Environment: development
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : No known dispatcher detected.
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : Application: My Application
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] WARN : Agent configured not to send data in this environment.
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : Installing deferred Rack instrumentation
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : Installing Net instrumentation
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 17:26:36 +0000 rails-dev-box (3008)] INFO : Finished instrumentation
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : Enabling the Request Sampler.
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : Enabling the Request Sampler.
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : Environment: development
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : No known dispatcher detected.
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : Application: My Application
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] WARN : Agent configured not to send data in this environment.
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : Installing Net instrumentation
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : Installing deferred Rack instrumentation
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 12:32:43 -0500 Sams-MacBook-Pro.local (2409)] INFO : Finished instrumentation
+[10/24/13 17:45:08 +0000 rails-dev-box (2952)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comments' for nil:NilClass
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : Enabling the Request Sampler.
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : Enabling the Request Sampler.
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : Environment: development
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : No known dispatcher detected.
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : Application: My Application
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] WARN : Agent configured not to send data in this environment.
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : Installing Net instrumentation
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : Installing deferred Rack instrumentation
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 12:45:22 -0500 Sams-MacBook-Pro.local (2456)] INFO : Finished instrumentation
+[10/24/13 17:45:41 +0000 rails-dev-box (2952)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comments' for nil:NilClass
+[10/24/13 17:45:41 +0000 rails-dev-box (2952)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comments' for nil:NilClass
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : Enabling the Request Sampler.
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : Enabling the Request Sampler.
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : Environment: development
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : No known dispatcher detected.
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : Application: My Application
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] WARN : Agent configured not to send data in this environment.
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : Installing Net instrumentation
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : Installing deferred Rack instrumentation
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 12:46:40 -0500 Sams-MacBook-Pro.local (2467)] INFO : Finished instrumentation
+[10/24/13 17:47:19 +0000 rails-dev-box (2952)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comments' for nil:NilClass
+[10/24/13 17:47:19 +0000 rails-dev-box (2952)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comments' for nil:NilClass
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : Enabling the Request Sampler.
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : Enabling the Request Sampler.
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : Environment: development
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : No known dispatcher detected.
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : Application: My Application
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] WARN : Agent configured not to send data in this environment.
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : Installing deferred Rack instrumentation
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : Installing Net instrumentation
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 17:52:37 +0000 rails-dev-box (3118)] INFO : Finished instrumentation
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : Enabling the Request Sampler.
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : Enabling the Request Sampler.
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : Environment: development
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : Dispatcher: webrick
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : Application: My Application
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] WARN : Agent configured not to send data in this environment.
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : Installing deferred Rack instrumentation
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : Installing Net instrumentation
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 17:53:01 +0000 rails-dev-box (3123)] INFO : Finished instrumentation
+[10/24/13 17:53:02 +0000 rails-dev-box (3123)] INFO : Doing deferred dependency-detection before Rack startup
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : Enabling the Request Sampler.
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : Enabling the Request Sampler.
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : Environment: development
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : No known dispatcher detected.
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : Application: My Application
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] WARN : Agent configured not to send data in this environment.
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : Installing deferred Rack instrumentation
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : Installing Net instrumentation
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 18:02:34 +0000 rails-dev-box (3167)] INFO : Finished instrumentation
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : Enabling the Request Sampler.
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : Enabling the Request Sampler.
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : Environment: development
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : No known dispatcher detected.
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : Application: My Application
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] WARN : Agent configured not to send data in this environment.
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : Installing deferred Rack instrumentation
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : Installing Net instrumentation
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 18:03:07 +0000 rails-dev-box (3169)] INFO : Finished instrumentation
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : Enabling the Request Sampler.
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : Enabling the Request Sampler.
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : Environment: development
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : Dispatcher: webrick
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : Application: My Application
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] WARN : Agent configured not to send data in this environment.
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : Installing deferred Rack instrumentation
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : Installing Net instrumentation
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 18:03:30 +0000 rails-dev-box (3172)] INFO : Finished instrumentation
+[10/24/13 18:03:32 +0000 rails-dev-box (3172)] INFO : Doing deferred dependency-detection before Rack startup
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : Enabling the Request Sampler.
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : Enabling the Request Sampler.
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : Environment: development
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : No known dispatcher detected.
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : Application: My Application
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] WARN : Agent configured not to send data in this environment.
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : Installing Net instrumentation
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : Installing deferred Rack instrumentation
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 13:07:28 -0500 Sams-MacBook-Pro.local (2585)] INFO : Finished instrumentation
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : Enabling the Request Sampler.
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : Enabling the Request Sampler.
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : Environment: development
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : No known dispatcher detected.
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : Application: My Application
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] WARN : Agent configured not to send data in this environment.
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : Installing Net instrumentation
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : Installing deferred Rack instrumentation
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 13:08:39 -0500 Sams-MacBook-Pro.local (2600)] INFO : Finished instrumentation
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : Enabling the Request Sampler.
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : Enabling the Request Sampler.
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : Environment: development
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : Dispatcher: webrick
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : Application: My Application
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] WARN : Agent configured not to send data in this environment.
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : Installing deferred Rack instrumentation
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : Installing Net instrumentation
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 18:46:33 +0000 rails-dev-box (3275)] INFO : Finished instrumentation
+[10/24/13 18:46:34 +0000 rails-dev-box (3275)] INFO : Doing deferred dependency-detection before Rack startup
+[10/24/13 19:10:05 +0000 rails-dev-box (3275)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/24/13 19:10:05 +0000 rails-dev-box (3275)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/9/avtar.png
+[10/24/13 19:10:07 +0000 rails-dev-box (3275)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/24/13 19:10:07 +0000 rails-dev-box (3275)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/9/tiny_avtar.png
+[10/24/13 19:10:09 +0000 rails-dev-box (3275)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/24/13 19:10:09 +0000 rails-dev-box (3275)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/9/small_avtar.png
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : Enabling the Request Sampler.
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : Enabling the Request Sampler.
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : Environment: development
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : No known dispatcher detected.
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : Application: My Application
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] WARN : Agent configured not to send data in this environment.
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : Installing deferred Rack instrumentation
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : Installing Net instrumentation
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 20:08:59 +0000 rails-dev-box (4016)] INFO : Finished instrumentation
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : Enabling the Request Sampler.
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : Enabling the Request Sampler.
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : Environment: development
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : Dispatcher: webrick
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : Application: My Application
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] WARN : Agent configured not to send data in this environment.
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : Installing deferred Rack instrumentation
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : Installing Net instrumentation
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 21:15:54 +0000 rails-dev-box (4100)] INFO : Finished instrumentation
+[10/24/13 21:15:56 +0000 rails-dev-box (4100)] INFO : Doing deferred dependency-detection before Rack startup
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : Enabling the Request Sampler.
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : Enabling the Request Sampler.
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : Environment: development
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : No known dispatcher detected.
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : Application: My Application
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] WARN : Agent configured not to send data in this environment.
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : Installing deferred Rack instrumentation
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : Installing Net instrumentation
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 21:36:12 +0000 rails-dev-box (4385)] INFO : Finished instrumentation
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : Enabling the Request Sampler.
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : Enabling the Request Sampler.
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : Environment: development
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : Dispatcher: webrick
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : Application: My Application
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] WARN : Agent configured not to send data in this environment.
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : Installing deferred Rack instrumentation
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : Installing Net instrumentation
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 21:36:37 +0000 rails-dev-box (4390)] INFO : Finished instrumentation
+[10/24/13 21:36:39 +0000 rails-dev-box (4390)] INFO : Doing deferred dependency-detection before Rack startup
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : Enabling the Request Sampler.
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : Enabling the Request Sampler.
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : Environment: development
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : No known dispatcher detected.
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : Application: My Application
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] WARN : Agent configured not to send data in this environment.
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : Installing deferred Rack instrumentation
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : Installing Net instrumentation
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 21:58:58 +0000 rails-dev-box (4625)] INFO : Finished instrumentation
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : Starting the New Relic agent in "development" environment.
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : Reading configuration from config/newrelic.yml
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : New Relic Agent Developer Mode enabled.
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : Enabling the Request Sampler.
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : Enabling the Request Sampler.
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : Environment: development
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : No known dispatcher detected.
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : Application: My Application
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] WARN : Agent configured not to send data in this environment.
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : Installing middleware-based Excon instrumentation
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : Installing deferred Rack instrumentation
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : Installing ActiveRecord instrumentation
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : Installing Net instrumentation
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : Installing Rails3 Error instrumentation
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : Installing Rails 3 Controller instrumentation
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/24/13 22:26:49 +0000 rails-dev-box (2109)] INFO : Finished instrumentation
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : Enabling the Request Sampler.
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : Enabling the Request Sampler.
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : Environment: development
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : No known dispatcher detected.
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : Application: My Application
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] WARN : Agent configured not to send data in this environment.
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : Installing deferred Rack instrumentation
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : Installing Net instrumentation
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 03:00:26 +0000 rails-dev-box (2316)] INFO : Finished instrumentation
+[10/25/13 03:01:41 +0000 rails-dev-box (2482)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 03:01:41 +0000 rails-dev-box (2482)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 03:01:41 +0000 rails-dev-box (2482)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 03:01:42 +0000 rails-dev-box (2482)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 03:01:42 +0000 rails-dev-box (2482)] INFO : Enabling the Request Sampler.
+[10/25/13 03:01:42 +0000 rails-dev-box (2482)] INFO : Enabling the Request Sampler.
+[10/25/13 03:01:42 +0000 rails-dev-box (2482)] INFO : Environment: development
+[10/25/13 03:01:42 +0000 rails-dev-box (2482)] INFO : Dispatcher: webrick
+[10/25/13 03:01:42 +0000 rails-dev-box (2482)] INFO : Application: My Application
+[10/25/13 03:01:42 +0000 rails-dev-box (2482)] WARN : Agent configured not to send data in this environment.
+[10/25/13 03:01:42 +0000 rails-dev-box (2482)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 03:01:42 +0000 rails-dev-box (2482)] INFO : Installing deferred Rack instrumentation
+[10/25/13 03:01:42 +0000 rails-dev-box (2482)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 03:01:42 +0000 rails-dev-box (2482)] INFO : Installing Net instrumentation
+[10/25/13 03:01:42 +0000 rails-dev-box (2482)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 03:01:42 +0000 rails-dev-box (2482)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 03:01:42 +0000 rails-dev-box (2482)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 03:01:42 +0000 rails-dev-box (2482)] INFO : Finished instrumentation
+[10/25/13 03:01:43 +0000 rails-dev-box (2482)] INFO : Doing deferred dependency-detection before Rack startup
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : Enabling the Request Sampler.
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : Enabling the Request Sampler.
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : Environment: development
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : No known dispatcher detected.
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : Application: My Application
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] WARN : Agent configured not to send data in this environment.
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : Installing deferred Rack instrumentation
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : Installing Net instrumentation
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 03:17:48 +0000 rails-dev-box (2557)] INFO : Finished instrumentation
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : Enabling the Request Sampler.
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : Enabling the Request Sampler.
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : Environment: development
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : No known dispatcher detected.
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : Application: My Application
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] WARN : Agent configured not to send data in this environment.
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : Installing deferred Rack instrumentation
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : Installing Net instrumentation
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 03:20:48 +0000 rails-dev-box (2565)] INFO : Finished instrumentation
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : Enabling the Request Sampler.
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : Enabling the Request Sampler.
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : Environment: development
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : No known dispatcher detected.
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : Application: My Application
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] WARN : Agent configured not to send data in this environment.
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : Installing deferred Rack instrumentation
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : Installing Net instrumentation
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 03:23:28 +0000 rails-dev-box (2581)] INFO : Finished instrumentation
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : Enabling the Request Sampler.
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : Enabling the Request Sampler.
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : Environment: development
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : Dispatcher: webrick
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : Application: My Application
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] WARN : Agent configured not to send data in this environment.
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : Installing deferred Rack instrumentation
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : Installing Net instrumentation
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 12:37:56 +0000 rails-dev-box (3116)] INFO : Finished instrumentation
+[10/25/13 12:37:57 +0000 rails-dev-box (3116)] INFO : Doing deferred dependency-detection before Rack startup
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : Enabling the Request Sampler.
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : Enabling the Request Sampler.
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : Environment: development
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : No known dispatcher detected.
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : Application: My Application
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] WARN : Agent configured not to send data in this environment.
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : Installing Net instrumentation
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : Installing deferred Rack instrumentation
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 07:42:55 -0500 Sams-MacBook-Pro.local (2183)] INFO : Finished instrumentation
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : Enabling the Request Sampler.
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : Enabling the Request Sampler.
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : Environment: development
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : No known dispatcher detected.
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : Application: My Application
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] WARN : Agent configured not to send data in this environment.
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : Installing deferred Rack instrumentation
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : Installing Net instrumentation
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 12:58:41 +0000 rails-dev-box (3213)] INFO : Finished instrumentation
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : Enabling the Request Sampler.
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : Enabling the Request Sampler.
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : Environment: development
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : No known dispatcher detected.
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : Application: My Application
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] WARN : Agent configured not to send data in this environment.
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : Installing deferred Rack instrumentation
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : Installing Net instrumentation
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 13:01:10 +0000 rails-dev-box (3222)] INFO : Finished instrumentation
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : Enabling the Request Sampler.
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : Enabling the Request Sampler.
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : Environment: development
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : No known dispatcher detected.
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : Application: My Application
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] WARN : Agent configured not to send data in this environment.
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : Installing deferred Rack instrumentation
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : Installing Net instrumentation
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 13:02:44 +0000 rails-dev-box (3228)] INFO : Finished instrumentation
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : Enabling the Request Sampler.
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : Enabling the Request Sampler.
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : Environment: development
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : No known dispatcher detected.
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : Application: My Application
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] WARN : Agent configured not to send data in this environment.
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : Installing deferred Rack instrumentation
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : Installing Net instrumentation
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 13:10:04 +0000 rails-dev-box (3256)] INFO : Finished instrumentation
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : Enabling the Request Sampler.
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : Enabling the Request Sampler.
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : Environment: development
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : Dispatcher: webrick
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : Application: My Application
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] WARN : Agent configured not to send data in this environment.
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : Installing deferred Rack instrumentation
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : Installing Net instrumentation
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 13:48:44 +0000 rails-dev-box (3880)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 13:48:45 +0000 rails-dev-box (3880)] INFO : Finished instrumentation
+[10/25/13 13:48:46 +0000 rails-dev-box (3880)] INFO : Doing deferred dependency-detection before Rack startup
+[10/25/13 14:42:38 +0000 rails-dev-box (3880)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/25/13 14:42:38 +0000 rails-dev-box (3880)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/11/avtar.png
+[10/25/13 14:42:40 +0000 rails-dev-box (3880)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/25/13 14:42:40 +0000 rails-dev-box (3880)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/11/tiny_avtar.png
+[10/25/13 14:42:42 +0000 rails-dev-box (3880)] ERROR : Uncaught exception while finishing an HTTP request trace
+[10/25/13 14:42:42 +0000 rails-dev-box (3880)] ERROR : URI::InvalidURIError: bad URI(is not URI?): ://:/uploads/user/avatar/11/small_avtar.png
+[10/25/13 15:38:02 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comment_path' for #<#<Class:0xb38f2ce0>:0xb4af3534>
+[10/25/13 15:38:02 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comment_path' for #<#<Class:0xb38f2ce0>:0xb3ae4f44>
+[10/25/13 15:38:02 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comment_path' for #<#<Class:0xb38f2ce0>:0xb3ae4f44>
+[10/25/13 15:38:03 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comment_path' for #<#<Class:0xb38f2ce0>:0xb3b8e24c>
+[10/25/13 15:38:03 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comment_path' for #<#<Class:0xb38f2ce0>:0xb3b8e24c>
+[10/25/13 15:38:03 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comment_path' for #<#<Class:0xb38f2ce0>:0xb49a4444>
+[10/25/13 15:38:03 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comment_path' for #<#<Class:0xb38f2ce0>:0xb49a4444>
+[10/25/13 15:38:04 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comment_path' for #<#<Class:0xb38f2ce0>:0xb3afb21c>
+[10/25/13 15:38:04 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comment_path' for #<#<Class:0xb38f2ce0>:0xb3afb21c>
+[10/25/13 15:38:04 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comment_path' for #<#<Class:0xb38f2ce0>:0xb3b9cae0>
+[10/25/13 15:38:04 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comment_path' for #<#<Class:0xb38f2ce0>:0xb3b9cae0>
+[10/25/13 15:38:04 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comment_path' for #<#<Class:0xb38f2ce0>:0xb5b602b4>
+[10/25/13 15:38:05 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comment_path' for #<#<Class:0xb38f2ce0>:0xb5b602b4>
+[10/25/13 15:41:03 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comment_url_helper' for #<#<Class:0xb38f2ce0>:0xb3585008>
+[10/25/13 15:41:03 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `comment_url_helper' for #<#<Class:0xb38f2ce0>:0xb3585008>
+[10/25/13 15:42:56 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: 'nil' is not an ActiveModel-compatible object that returns a valid partial path.
+[10/25/13 15:42:56 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: 'nil' is not an ActiveModel-compatible object that returns a valid partial path.
+[10/25/13 15:46:06 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: 'nil' is not an ActiveModel-compatible object that returns a valid partial path.
+[10/25/13 15:46:06 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: 'nil' is not an ActiveModel-compatible object that returns a valid partial path.
+[10/25/13 15:50:09 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: 'nil' is not an ActiveModel-compatible object that returns a valid partial path.
+[10/25/13 15:50:09 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: 'nil' is not an ActiveModel-compatible object that returns a valid partial path.
+[10/25/13 15:50:39 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `visible_to' for #<ActiveRecord::Relation:0xb318ff70>
+[10/25/13 15:50:39 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `visible_to' for #<ActiveRecord::Relation:0xb318ff70>
+[10/25/13 15:50:42 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `visible_to' for #<ActiveRecord::Relation:0xb2ef6dcc>
+[10/25/13 15:50:42 +0000 rails-dev-box (3880)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `visible_to' for #<ActiveRecord::Relation:0xb2ef6dcc>
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : Enabling the Request Sampler.
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : Enabling the Request Sampler.
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : Environment: development
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : No known dispatcher detected.
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : Application: My Application
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] WARN : Agent configured not to send data in this environment.
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : Installing deferred Rack instrumentation
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : Installing Net instrumentation
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 16:11:02 +0000 rails-dev-box (4509)] INFO : Finished instrumentation
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : Enabling the Request Sampler.
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : Enabling the Request Sampler.
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : Environment: development
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : No known dispatcher detected.
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : Application: My Application
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] WARN : Agent configured not to send data in this environment.
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : Installing deferred Rack instrumentation
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : Installing Net instrumentation
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 16:27:57 +0000 rails-dev-box (4590)] INFO : Finished instrumentation
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : Enabling the Request Sampler.
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : Enabling the Request Sampler.
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : Environment: development
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : Dispatcher: webrick
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : Application: My Application
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] WARN : Agent configured not to send data in this environment.
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : Installing deferred Rack instrumentation
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : Installing Net instrumentation
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 16:53:29 +0000 rails-dev-box (4624)] INFO : Finished instrumentation
+[10/25/13 16:53:31 +0000 rails-dev-box (4624)] INFO : Doing deferred dependency-detection before Rack startup
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : Enabling the Request Sampler.
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : Enabling the Request Sampler.
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : Environment: development
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : Dispatcher: webrick
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : Application: My Application
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] WARN : Agent configured not to send data in this environment.
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : Installing deferred Rack instrumentation
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : Installing Net instrumentation
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 17:08:39 +0000 rails-dev-box (4670)] INFO : Finished instrumentation
+[10/25/13 17:08:41 +0000 rails-dev-box (4670)] INFO : Doing deferred dependency-detection before Rack startup
+[10/25/13 18:23:41 +0000 rails-dev-box (4670)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `voted' for nil:NilClass
+[10/25/13 18:23:42 +0000 rails-dev-box (4670)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `voted' for nil:NilClass
+[10/25/13 18:23:42 +0000 rails-dev-box (4670)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `voted' for nil:NilClass
+[10/25/13 18:23:42 +0000 rails-dev-box (4670)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `voted' for nil:NilClass
+[10/25/13 18:23:42 +0000 rails-dev-box (4670)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `voted' for nil:NilClass
+[10/25/13 18:24:35 +0000 rails-dev-box (4670)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `voted' for nil:NilClass
+[10/25/13 18:24:35 +0000 rails-dev-box (4670)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `voted' for nil:NilClass
+[10/25/13 18:25:55 +0000 rails-dev-box (4670)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `voted' for nil:NilClass
+[10/25/13 18:25:55 +0000 rails-dev-box (4670)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `voted' for nil:NilClass
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : Enabling the Request Sampler.
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : Enabling the Request Sampler.
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : Environment: development
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : Dispatcher: webrick
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : Application: My Application
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] WARN : Agent configured not to send data in this environment.
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : Installing deferred Rack instrumentation
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : Installing Net instrumentation
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 22:16:08 +0000 rails-dev-box (5684)] INFO : Finished instrumentation
+[10/25/13 22:16:10 +0000 rails-dev-box (5684)] INFO : Doing deferred dependency-detection before Rack startup
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : Enabling the Request Sampler.
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : Enabling the Request Sampler.
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : Environment: development
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : Dispatcher: webrick
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : Application: My Application
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] WARN : Agent configured not to send data in this environment.
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : Installing deferred Rack instrumentation
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : Installing Net instrumentation
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 22:41:14 +0000 rails-dev-box (5747)] INFO : Finished instrumentation
+[10/25/13 22:41:16 +0000 rails-dev-box (5747)] INFO : Doing deferred dependency-detection before Rack startup
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : Starting the New Relic agent in "development" environment.
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : Reading configuration from config/newrelic.yml
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : New Relic Agent Developer Mode enabled.
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : Enabling the Request Sampler.
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : Enabling the Request Sampler.
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : Environment: development
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : Dispatcher: webrick
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : Application: My Application
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] WARN : Agent configured not to send data in this environment.
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : Installing middleware-based Excon instrumentation
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : Installing deferred Rack instrumentation
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : Installing ActiveRecord instrumentation
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : Installing Net instrumentation
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : Installing Rails3 Error instrumentation
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : Installing Rails 3 Controller instrumentation
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/25/13 22:59:51 +0000 rails-dev-box (5821)] INFO : Finished instrumentation
+[10/25/13 22:59:53 +0000 rails-dev-box (5821)] INFO : Doing deferred dependency-detection before Rack startup
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : Starting the New Relic agent in "development" environment.
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : Reading configuration from config/newrelic.yml
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : New Relic Agent Developer Mode enabled.
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : Enabling the Request Sampler.
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : Enabling the Request Sampler.
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : Environment: development
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : No known dispatcher detected.
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : Application: My Application
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] WARN : Agent configured not to send data in this environment.
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : Installing middleware-based Excon instrumentation
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : Installing deferred Rack instrumentation
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : Installing ActiveRecord instrumentation
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : Installing Net instrumentation
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : Installing Rails3 Error instrumentation
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : Installing Rails 3 Controller instrumentation
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/28/13 19:33:00 +0000 rails-dev-box (23269)] INFO : Finished instrumentation
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : Starting the New Relic agent in "development" environment.
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : Reading configuration from config/newrelic.yml
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : New Relic Agent Developer Mode enabled.
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : Enabling the Request Sampler.
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : Enabling the Request Sampler.
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : Environment: development
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : Dispatcher: webrick
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : Application: My Application
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] WARN : Agent configured not to send data in this environment.
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : Installing middleware-based Excon instrumentation
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : Installing deferred Rack instrumentation
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : Installing ActiveRecord instrumentation
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : Installing Net instrumentation
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : Installing Rails3 Error instrumentation
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : Installing Rails 3 Controller instrumentation
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/28/13 19:33:15 +0000 rails-dev-box (23274)] INFO : Finished instrumentation
+[10/28/13 19:33:16 +0000 rails-dev-box (23274)] INFO : Doing deferred dependency-detection before Rack startup

@@ -1,0 +1,26 @@
+<h1><%= @topic.name %></h1>
+
+<% if can? :update, @topic %>
+    <%= link_to "Edit Topic", edit_topic_path, class: 'btn btn-primary btn-mini' %>
+<% end %>
+
+<div class="row">
+  <div class="span8">
+    <p class="lead"><%= @topic.description %></p>
+    <% @posts.each do |post| %>
+        <%= render partial: 'topics/posts/post', collection: @posts %>
+    <% end %>
+
+    <%= will_paginate @posts %>
+  </div>
+  <div class="span4">
+    <div class="span4">
+      <% if can? :create, Post %>
+          <%= link_to "New Post", new_topic_post_path(@topic), class: 'btn btn-large btn-block' %>
+      <% end %>
+      <% if can? :destroy, @topic %>
+          <%= link_to "Delete Topic", @topic, method: :delete, class: 'btn btn-large btn-block btn-danger', confirm: 'Are you sure you want to delete this topic?' %>
+      <% end %>
+    </div>
+  </div>
+</div>
