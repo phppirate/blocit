@@ -49,6 +49,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    database_cleaner (1.2.0)
     devise (3.1.1)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
@@ -59,6 +60,11 @@ GEM
     erubis (2.7.0)
     excon (0.27.6)
     execjs (2.0.2)
+    factory_girl (4.2.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.2.1)
+      factory_girl (~> 4.2.0)
+      railties (>= 3.0.0)
     faker (1.2.0)
       i18n (~> 0.5)
     faraday (0.8.8)
@@ -224,7 +230,9 @@ DEPENDENCIES
   cancan
   carrierwave
   coffee-rails (~> 3.2.1)
+  database_cleaner
   devise
+  factory_girl_rails (~> 4.0)
   faker
   figaro
   fog
