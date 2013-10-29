@@ -1,7 +1,7 @@
 <% if @comment.destroyed? %>
 $('#comment-' +<%= @comment.id %>).hide();
 $('.js-comments-count').html("<%= @post.comments.count %> Comments");
-$('#alerts').html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert'>&times;</button><%= flash[:notice] %></div>");
+$('#alerts').html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert'>&times;</button>Comment was removed!</div>");
 <% else %>
 $('#comment-' +<%= @comment.id %>).prepend("<div class='alert alert-error'><%= flash[:error] %></div>");
 <% end %>
