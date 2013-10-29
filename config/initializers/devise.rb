@@ -264,8 +264,8 @@ Devise.setup do |config|
         :address        => 'smtp.sendgrid.net',
         :port           => '587',
         :authentication => :plain,
-        :user_name      => 'app18691676@heroku.com',
-        :password       => 'kxekooym',
+        :user_name      => 'app18969372@heroku.com',
+        :password       => 'xpia9jj6',
         :domain         => 'heroku.com',
         :enable_starttls_auto => true
     }
