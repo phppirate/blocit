@@ -12,9 +12,9 @@ class CommentsController < ApplicationController
     authorize! :create, @comment, message: "You need be signed in to do that."
 
     if @comment.save
-      flash[:notice] = "Comment was created."
+      #flash[:notice] = "Comment was created."
     else
-      flash[:error] = "There was an error saving the comment. Please try again."
+      #flash[:error] = "There was an error saving the comment. Please try again."
     end
 
     respond_with(@comment) do |f|
