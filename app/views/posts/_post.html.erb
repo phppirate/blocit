@@ -10,7 +10,7 @@
       <%= link_to (markdown post.title), [topic, post] %>
     </h4>
     <small>
-      <%= image_tag(post.user.avatar.tiny.url) if post.user.avatar? %>
+      <%= get_avtar %>
       submitted <%= time_ago_in_words(post.created_at) %> ago by
       <%= link_to post.user.name, post.user %>
       <% if show_topic %>
