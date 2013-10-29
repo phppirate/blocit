@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3420db49-ad8c-414a-a9a0-c5444a2e8d6c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.yml" afterPath="$PROJECT_DIR$/config/application.yml" />
     </list>
     <ignored path="bloccit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +43,7 @@
     <file path="/destroy.js.erb" changelist="3420db49-ad8c-414a-a9a0-c5444a2e8d6c" time="1383061675384" ignored="false" />
     <file path="/vote_spec.rb" changelist="3420db49-ad8c-414a-a9a0-c5444a2e8d6c" time="1382991128949" ignored="false" />
     <file path="/create.js.erb" changelist="3420db49-ad8c-414a-a9a0-c5444a2e8d6c" time="1383061681016" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="3420db49-ad8c-414a-a9a0-c5444a2e8d6c" time="1383071160639" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="3420db49-ad8c-414a-a9a0-c5444a2e8d6c" time="1383072371805" ignored="false" />
     <file path="/_post.html.erb" changelist="3420db49-ad8c-414a-a9a0-c5444a2e8d6c" time="1383069690955" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,24 +64,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="89" selection-start="285" selection-end="285" vertical-scroll-proportion="-3.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="21" selection-start="1347" selection-end="1347" vertical-scroll-proportion="-13.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,10 +82,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="devise.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="devise.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="266" column="39" selection-start="13088" selection-end="13088" vertical-scroll-proportion="0.74025977">
+            <state line="267" column="36" selection-start="13130" selection-end="13138" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup_mail.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/setup_mail.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="29" selection-start="190" selection-end="190" vertical-scroll-proportion="0.064935066">
               <folding />
             </state>
           </provider>
@@ -172,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/support/database_cleaner.rb" />
         <option value="$PROJECT_DIR$/spec/factories/users.rb" />
         <option value="$PROJECT_DIR$/spec/factories/comment.rb" />
@@ -188,6 +187,7 @@
         <option value="$PROJECT_DIR$/app/views/comments/_comment.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
+        <option value="$PROJECT_DIR$/config/application.yml" />
       </list>
     </option>
   </component>
@@ -816,20 +816,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="435" selection-end="436" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/comments/destroy.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="145" selection-start="287" selection-end="287" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/comments/create.js.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="9" selection-start="649" selection-end="649" vertical-scroll-proportion="-4.375">
@@ -921,9 +907,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/setup_mail.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="266" column="39" selection-start="13088" selection-end="13088" vertical-scroll-proportion="0.74025977">
+        <state line="267" column="36" selection-start="13130" selection-end="13138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="29" selection-start="190" selection-end="190" vertical-scroll-proportion="0.064935066">
           <folding />
         </state>
       </provider>
