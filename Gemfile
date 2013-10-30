@@ -13,8 +13,6 @@ group :development do
   gem 'sqlite3'
 end
 
-#gem 'redis'
-
 group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
