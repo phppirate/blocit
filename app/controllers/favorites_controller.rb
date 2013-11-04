@@ -1,8 +1,12 @@
 class FavoritesController < ApplicationController
+
+  #include Bloccit::Cache
   def create
     @topic = Topic.find(params[:topic_id])
     @post = @topic.posts.find(params[:post_id])
     authorize! :create, Favorite, message: "You cannot do that"
+
+    $redis.sadd(current_user.id, @post.id)
 
     favorite = current_user.favorites.create(post: @post)
     if favorite.valid?
@@ -19,6 +23,8 @@ class FavoritesController < ApplicationController
     @post = @topic.posts.find(params[:post_id])
     @favorite = current_user.favorites.find(params[:id])
     authorize! :create, Favorite, message: "You cannot do that"
+
+    $redis.srem(current_user.id, params[:post_id])
 
     if @favorite.destroy
       flash[:notice] = "Removed favorite."

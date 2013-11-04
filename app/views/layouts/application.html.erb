@@ -8,11 +8,11 @@
 </head>
 <body style="padding-top: 70px">
 <div class="container">
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-fixed-top">
     <div class="navbar-inner">
-      <a class="brand" style="margin-left: 20px" href="<%= root_path %>"><img src=""/></a>
+      <a class="brand" style="margin-left: 20px; color: #000; font-weight: bold; text-shadow: 0px 0px 10px #999" href="<%= root_path %>">BLOCCIT</a>
       <ul class="nav">
-        <li><%= link_to "home", root_path %></li>
+        <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "About", about_path %></li>
         <li><%= link_to "Topics", topics_path %></li>
         <li><%= link_to "Popular", posts_path %></li>
@@ -20,10 +20,12 @@
       </ul>
       <ul class="pull-right nav">
         <% if current_user %>
-            <li class="nav-text"><%= get_avtar %></li>
+            <li class="nav-text"><%= get_avtar('tiny') %></li>
             <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><%= current_user.name || current_user.email %> <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><%= link_to edit_user_registration_path do %><span class="icon-user"></span> Profile<% end %></li>
+                  <li><a href="<%= users_path %>/<%= current_user.id %>"><span class="icon-list"></span> Public Profile</a></li>
+                  <li class="divider"></li>
                   <li><%= link_to destroy_user_session_path, method: :delete do %><span class="icon-remove-circle"></span> Sign Out<% end %></li>
                 </ul>
             </li>

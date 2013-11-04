@@ -29,16 +29,37 @@ module ApplicationHelper
     topic = post.topic
     [topic, post, comment]
   end
-
-  def get_avtar
+  def get_avtar(size = 'tiny')
     if current_user
+      if size == 'tiny'
+        demensions = '20px'
+      elsif size == 'small'
+        demensions = '30px'
+      elsif size == 'profile'
+        demensions = '45px'
+      else
+        demensions = '200px'
+      end
+
       if current_user.avatar?
-        image_tag(current_user.avatar.tiny.url)
+
+        if size = 'tiny'
+          image_tag(current_user.avatar.tiny.url)
+        elsif size = 'small'
+          image_tag(current_user.avatar.small.url)
+        elsif
+          image_tag(current_user.avatar.profile.url)
+        else
+          image_tag(current_user.avatar.url)
+        end
+
       else
         id = Digest::MD5::hexdigest(current_user.email.downcase)
         url = "https://secure.gravatar.com/avatar/#{id}.png"
-        image_tag(url, width: "20px", height: "20px")
+        image_tag(url, width: "#{demensions}", height: "#{demensions}")
       end
+
     end
   end
+
 end
